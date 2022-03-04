@@ -112,8 +112,7 @@ Build the data pipelines to create the data model.
     /home/workspace# /usr/bin/spark-submit --packages saurfang:spark-sas7bdat:2.0.0-s_2.11 --master yarn "CapstoneProject_ETL.py"
     ```
     
-8. After the script are suessful, you m![CapstoneProject-DataModels drawio](https://user-images.githubusercontent.com/18514543/156819630-6520ae60-5764-49eb-a2bc-d93a9f65e55e.png)
-aybe need to terminate the AWS EMR Cluster. Please see AWS CLI for terminate the cluster as below:
+8. After the script are suessful, you maybe need to terminate the AWS EMR Cluster. Please see AWS CLI for terminate the cluster as below:
 
     ``` bash
     aws emr terminate-clusters --cluster-ids <INPUT_CLUSTERID> --region us-west-2
